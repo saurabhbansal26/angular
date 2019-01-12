@@ -11,7 +11,25 @@ export class CustomerComponent implements OnInit {
    studentList: string[] = ["Saurabh","Bansal","Neelesh","jaisawal"];
    customerList : Customer[] = [];
    headerList:string[] = ['Id','Name','City'];
-   customerNameList:string[] = ['id','name','city']
+   customerNameList:string[] = ['id','name','city'];
+
+   countryList = [
+    {
+      "id":1,
+      "code":"IND",
+      "desc":"India"
+    },
+    {
+      "id":2,
+      "code":"US",
+      "desc":"United States"
+    },
+    {
+      "id":3,
+      "code":"UK",
+      "desc":"United Kingdom"
+    }
+  ];
   
   constructor() { }
 

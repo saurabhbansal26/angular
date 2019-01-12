@@ -9,6 +9,7 @@ import { UserComponent } from './user/user.component';
 import { WarningMessageComponent } from './warning-message.component';
 import { MarksheetComponent } from './marksheet/marksheet.component';
 import {FormsModule} from '@angular/forms';
+import { MyDropDownComponent } from './my-drop-down/my-drop-down.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import {FormsModule} from '@angular/forms';
     CustomerComponent,
     UserComponent,
     WarningMessageComponent,
-    MarksheetComponent
+    MarksheetComponent,
+    MyDropDownComponent
   
   ],
   imports: [
