@@ -2,7 +2,7 @@
   <div class="col">
     <select name="name">
       <option [value]="-1">{{placeHolder}}</option>
-      <option *ngFor="let item of studentDropDownData">
+      <option *ngFor="let item of studentDropDownData" [value]=item>
           {{item}}
       </option>
     </select>

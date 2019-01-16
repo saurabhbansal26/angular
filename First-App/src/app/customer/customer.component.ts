@@ -13,6 +13,7 @@ export class CustomerComponent implements OnInit {
    headerList:string[] = ['Id','Name','City'];
    customerNameList:string[] = ['id','name','city'];
 
+   formattedMsg:string;
    countryList = [
     {
       "id":1,
@@ -58,5 +59,9 @@ export class CustomerComponent implements OnInit {
 
   onDivision(num1, num2){
     this.result =parseInt(num1) / parseInt(num2);
+  }
+
+  getMessage(msg){
+    this.formattedMsg = msg;
   }
 }

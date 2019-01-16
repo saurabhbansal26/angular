@@ -40,3 +40,8 @@
  [studentDropDownData] = "studentList"
 >
 </app-my-drop-down>
+
+<app-component-output
+ [message] = "'Hello'" (getFormattedMessage) = getMessage($event)>
+</app-component-output>
+{{formattedMsg}}
