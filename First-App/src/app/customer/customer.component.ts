@@ -12,6 +12,7 @@ export class CustomerComponent implements OnInit {
    customerList : Customer[] = [];
    headerList:string[] = ['Id','Name','City'];
    customerNameList:string[] = ['id','name','city'];
+   public messageop:string;
 
    formattedMsg:string;
    countryList = [

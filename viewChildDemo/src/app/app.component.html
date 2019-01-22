@@ -1,0 +1,19 @@
+<!--The content below is only a placeholder and can be replaced.-->
+  <h1 style="text-align: center;  background-color: burlywood" >
+    Welcome to {{ title }}!
+  </h1>
+
+<div class="container">
+<div class="row">
+  <div class="col">
+    <input type="text" #name/>
+  </div>
+  <div class="col">
+    <button (click)="reverse()" >Reverse</button>
+    <button (click)="lowerCase()">LowerCase</button>
+    <button (click)="upperCase()">UpperCase</button>
+  </div>
+</div>
+<app-string-utility></app-string-utility>
+Final Result is : {{result}}
+</div>

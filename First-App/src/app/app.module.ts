@@ -11,6 +11,8 @@ import { MarksheetComponent } from './marksheet/marksheet.component';
 import {FormsModule} from '@angular/forms';
 import { MyDropDownComponent } from './my-drop-down/my-drop-down.component';
 import { ComponentOutputComponent } from './component-output/component-output.component';
+import { InputoutputComponent } from './inputoutput/inputoutput.component';
+import { ViewChildComponent } from './view-child/view-child.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { ComponentOutputComponent } from './component-output/component-output.co
     WarningMessageComponent,
     MarksheetComponent,
     MyDropDownComponent,
-    ComponentOutputComponent
+    ComponentOutputComponent,
+    InputoutputComponent,
+    ViewChildComponent
   
   ],
   imports: [

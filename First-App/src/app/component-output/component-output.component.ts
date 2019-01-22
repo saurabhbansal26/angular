@@ -16,7 +16,11 @@ export class ComponentOutputComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    if(this.message == 'Hello')
     this.getFormattedMessage.emit(this.message+"  World");
+    else{
+      this.getFormattedMessage.emit("  World");
+    }
   }
 
  
